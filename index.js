@@ -54,7 +54,7 @@ function removeForm(){
 }
 
 function getRecipeTemplate() {
-  recipeTemplate = Handlebars.compile(document.getElementById("recipe-template").innerHTML);
+  let recipeTemplate = Handlebars.compile(document.getElementById("recipe-template").innerHTML);
 }
 
 function addRecipeTemplateToDom() {
