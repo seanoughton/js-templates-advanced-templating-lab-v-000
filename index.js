@@ -87,7 +87,7 @@ function createRecipe() {
     catchFormValues();
     removeForm(); //Remove form from DOM
     // Get recipe Template
-    getRecipeTemplate();
+    //getRecipeTemplate();
     // Add recipeTemplate to DOM and pass in recipeDetails
     addRecipeTemplateToDom();
 
