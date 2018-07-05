@@ -82,8 +82,8 @@ function createRecipe() {
 
   function updateRecipe() {
     //remove the recipe from the page
-    var recipeTemplate = document.getElementById("recipe-template");
-    recipeTemplate.remove();
+    //var recipeTemplate = document.getElementById("recipe-template");
+    //recipeTemplate.remove();
     catchFormValues();
     removeForm(); //Remove form from DOM
     // Get recipe Template
