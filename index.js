@@ -58,6 +58,7 @@ function getRecipeTemplate() {
 }
 
 function addRecipeTemplateToDom() {
+  let recipeTemplate = Handlebars.compile(document.getElementById("recipe-template").innerHTML);
   document.getElementsByTagName("main")[0].innerHTML += recipeTemplate(recipeDetails);
 }
 
