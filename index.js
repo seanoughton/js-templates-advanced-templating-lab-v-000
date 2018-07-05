@@ -66,7 +66,7 @@ function createRecipe() {
     catchFormValues();  //gets the form values and assigns them to a global hash variable
     removeForm(); //Remove form from DOM
     // Get recipe Template
-    getRecipeTemplate();
+    //getRecipeTemplate();
     // Add recipeTemplate to DOM and pass in recipeDetails
     addRecipeTemplateToDom();
   };
